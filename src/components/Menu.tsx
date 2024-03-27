@@ -45,6 +45,7 @@ const Menu = observer(() => {
           </svg>
         </button>
       </li>
+      <div></div>
       <li>
         <button onClick={() => rootStore.setActiveTab('chart')} className='tooltip tooltip-right' data-tip='Stats'>
           <FontAwesomeIcon className='h-5 w-5' icon={faChartLine} />
